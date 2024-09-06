@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.car-details {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.rental-options {
+    flex: 1;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+}
+
+.back-link {
+    color: #007bff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.year {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.car-image img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.overview {
+    margin-top: 20px;
+}
+
+.overview table {
+    width: 100%;
+    border-spacing: 0 10px;
+}
+
+.overview table td {
+    padding: 5px 0;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+.price {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.price span {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.additional-options h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.additional-options label {
+    font-size: 14px;
+}
+
+.total {
+    margin-top: 20px;
+}
+
+.total p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.rent-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.rent-btn:hover {
+    background-color: #0056b3;
+}

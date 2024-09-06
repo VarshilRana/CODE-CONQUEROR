@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="car-details">
+            <a href="select-car.html" class="back-link">&larr; Back to Search Results</a>
+            <h1>SUZUKI DZIRE</h1>
+            <p class="year">2016</p>
+
+            <div class="car-image">
+                <img src="p2.png" alt="Geely Vision GC7">
+            </div>
+
+            <div class="overview">
+                <h2>Overview</h2>
+                <table>
+                    <tr>
+                        <td><strong>Exterior Color</strong></td>
+                        <td>WHITE</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Interior Color</strong></td>
+                        <td>BLACK</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Engine Capacity</strong></td>
+                        <td>1.6</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fuel Types</strong></td>
+                        <td>Gasoline</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Drivetrain</strong></td>
+                        <td>4WD</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Transmission</strong></td>
+                        <td>Automatic</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Air Conditioner</strong></td>
+                        <td>True</td>
+                    </tr>
+                    <tr>
+                        <td><strong>GPS</strong></td>
+                        <td>True</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="description">
+                <h2>Description</h2>
+                <p>Collision Damage Waiver and Theft Protection are included with this car. It covers damage and theft of the vehicle with the exclusion of damage or loss of tires, windscreen, glass, and undercarriage.</p>
+            </div>
+        </div>
+
+        <div class="rental-options">
+            <div class="price">
+                <p>₹1099.00 <span>/day</span></p>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="pick-up">Pick-Up</label>
+                    <input type="date" id="pick-up">
+                </div>
+                <div class="form-group">
+                    <label for="return">Return</label>
+                    <input type="date" id="return">
+                </div>
+
+                <div class="additional-options">
+                    <h3>Additional Options:</h3>
+                    <label><input type="checkbox"> Child seat: ₹250 / day.</label><br>
+                    <label><input type="checkbox"> Baby chair: ₹300 / day.</label><br>
+                    <label><input type="checkbox"> GPS: ₹250 / day.</label><br>
+                    <label><input type="checkbox"> Roof rack: ₹300 / day.</label>
+                </div>
+
+                <div class="total">
+                    <p>Total: <span id="total-amount">₹0.0</span></p>
+                </div>
+
+                <button type="submit" class="rent-btn">Rent Now</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
